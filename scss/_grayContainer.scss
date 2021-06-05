@@ -1,0 +1,40 @@
+
+.gray-container{
+    background-color: #f6f6f6;
+    padding: 4em 0 2em;
+    margin-top: -3%;
+    ul{
+        li:first-child{
+            margin-bottom: 2em;
+        }
+    }
+    figure{
+        margin: 0;
+        padding:0;
+    }
+    figcaption{
+        font-weight: bold;
+        color: #00c2ff;
+    }
+}
+
+
+.caption{
+    h2{
+        margin-top: 7%;
+    }
+    .cta{
+        background-color: #00cc80;
+        width: calc(100%-1em);
+        display: block;
+        color: white;
+        border-radius: 1.25em;
+        text-decoration: none;
+        padding: 0.5em;
+        font-size: 1.5em;
+        margin: 3% auto 7%;
+        position: relative;
+        z-index: 4;
+    }
+}
+

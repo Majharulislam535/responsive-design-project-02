@@ -1,0 +1,128 @@
+.hide-mobile {
+    display: none;
+}
+
+@media only screen and(min-width:650px) {
+    .server {
+        width: 50%;
+    }
+
+    h1 {
+        font-size    : 3em;
+        margin-bottom: 0;
+    }
+
+    .subhead {
+        font-size    : 1.4em;
+        margin-bottom: 12%;
+    }
+
+    .blue-container {
+        margin: 0;
+
+        ul {
+            display    : flex;
+            margin-top : -1em;
+            align-items: center;
+
+            li {
+                margin-bottom: 0;
+                 p{
+                     padding: 0 .8em;
+                 }
+                img {
+                    width: 10%;
+                }
+            }
+        }
+
+        ul li:nth-child(3) img {
+            width     : 6%;
+            margin-top: -6px;
+        }
+    }
+
+    .gray-container{
+         ul{
+             display:flex;
+         }
+    }
+    
+    nav ul {
+        width: 40%;
+    }
+}
+
+
+
+@media only screen and(min-width:875px){
+     .subhead{
+         margin-bottom: 15%;
+     }
+     .blue-container ul{
+        margin: 0 0 4% 0;
+     }
+     .gray-container ul{
+         margin: 4% 0 0;
+     }
+}
+
+@media screen and (min-width:1024px){
+    .cta{
+         width: 50%;
+    }
+    .container{
+        width:80%;
+        margin:0 auto;
+    }
+    .show-desktop{
+        display:block;
+        margin: 0 auto 13% auto;
+    }
+    .hide-desktop{
+        display: none;
+    }
+     
+    
+    nav ul{
+        position: inherit;
+        width:auto;
+        background: none;
+        height: auto;
+        display:flex;
+        padding-top: 0;
+         
+    }
+    
+    nav ul li{
+        float: left;
+    }
+    nav ul li a {
+        color: black;
+         background-color:inherit;
+         text-align: right;
+         padding: 1em 2em;
+         &:hover{
+             background-color:inherit;
+         }
+    }
+
+    .logo{
+        margin-top: -4.6875rem;
+    }
+    .scroll{
+         width: 1.875rem;
+         animation: move 1s infinite alternate;
+    }
+    @keyframes move {
+        from{
+           
+            transform: translateY(0px);
+        }
+        to{
+            transform: translateY(1.25rem);
+        }
+    }
+     
+    
+}
